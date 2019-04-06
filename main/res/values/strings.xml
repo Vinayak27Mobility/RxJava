@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">iBotta</string>
+
+    //App level
+    <string name="error_message">Error Fetching Data</string>
+    <string name="offer_image_desc">Offer Image</string>
+    <string name="offer_add_favorites">Offer added to favorites</string>
+    <string name="offer_remove_favorites">Offer removed from favorites</string>
+</resources>
