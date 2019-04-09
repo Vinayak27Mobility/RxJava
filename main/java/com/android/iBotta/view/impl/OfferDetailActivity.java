@@ -9,13 +9,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.android.iBotta.R;
-import com.android.iBotta.di.DaggerOfferComponent;
 import com.android.iBotta.di.DaggerOfferDetailComponent;
-import com.android.iBotta.di.OfferComponent;
 import com.android.iBotta.di.OfferDetailComponent;
 import com.android.iBotta.di.OfferDetailModule;
-import com.android.iBotta.di.OfferModule;
-import com.android.iBotta.iBottaApplication;
 import com.android.iBotta.model.Offer;
 import com.android.iBotta.util.Util;
 import com.android.iBotta.view.OfferDetailContract;
@@ -65,10 +61,10 @@ public class OfferDetailActivity extends AppCompatActivity implements OfferDetai
             public void onClick(View view) {
                 int stringRes = 0;
                 if(offer.isFav()) {
-                    presenter.setOfferFavoraite(false);
+                    presenter.setOfferFavorite(false);
                     stringRes = R.string.offer_remove_favorites;
                 } else {
-                    presenter.setOfferFavoraite(true);
+                    presenter.setOfferFavorite(true);
                     stringRes = R.string.offer_add_favorites;
                 }
                 Snackbar.make(view, stringRes, Snackbar.LENGTH_LONG).show();

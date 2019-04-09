@@ -8,6 +8,6 @@ public interface OfferDetailContract {
     }
 
     interface presenter {
-        void setOfferFavoraite(boolean setFav);
+        void setOfferFavorite(boolean setFav);
     }
 }

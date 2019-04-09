@@ -14,7 +14,7 @@ public class OfferDetailPresenter implements OfferDetailContract.presenter {
 
 
     @Override
-    public void setOfferFavoraite(boolean setFav) {
+    public void setOfferFavorite(boolean setFav) {
         if(setFav) {
             view.onOfferSetFav();
         } else {

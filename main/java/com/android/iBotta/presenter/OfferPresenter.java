@@ -4,9 +4,6 @@ import com.android.iBotta.model.Offer;
 import com.android.iBotta.network.ServiceHelper;
 import com.android.iBotta.view.OfferContract;
 
-import org.reactivestreams.Subscriber;
-import org.reactivestreams.Subscription;
-
 import java.util.List;
 
 import io.reactivex.Observer;
